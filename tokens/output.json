@@ -1,0 +1,52 @@
+{
+  "reference": {
+    "typo": {
+      "fontFamily": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      },
+      "fontWeight": {
+        "value": 600,
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "100%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": "3rem",
+        "type": "fontSizes"
+      }
+    }
+  },
+  "my-typo": {
+    "fontFamily": {
+      "value": "Inter",
+      "type": "fontFamilies"
+    },
+    "fontWeight": {
+      "value": 600,
+      "type": "fontWeights"
+    },
+    "lineHeight": {
+      "value": "100%",
+      "type": "lineHeight"
+    },
+    "fontSize": {
+      "value": "3rem",
+      "type": "fontSizes"
+    }
+  },
+  "color": {
+    "reference": {
+      "value": "#b201a7",
+      "type": "color"
+    }
+  },
+  "my": {
+    "color": {
+      "value": "{color.reference}",
+      "type": "color"
+    }
+  }
+}

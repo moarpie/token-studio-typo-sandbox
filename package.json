@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "style-dictionary": "^3.7.2",
+    "token-transformer": "^0.0.32"
+  },
+  "name": "ts-fonts",
+  "description": "This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run: ```bash style-dictionary build ```",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "token-transformer tokens.json tokens/output.json global --expandTypography=true --resolveReferences=false | style-dictionary build",
+    "build2": "token-transformer tokens.json tokens/output.json global --expandTypography=true --resolveReferences=true | style-dictionary build"
+  },
+  "author": "",
+  "license": "ISC"
+}
