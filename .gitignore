@@ -1,0 +1,27 @@
+# OS X
+.DS_Store
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+
+# Build generated
+build/
+
+# Dependency directories
+Pods/
+Carthage/
+
+# Archive files
+*.archive
+*.xcarchive
+
+# Other
+*.log
+*.swp
